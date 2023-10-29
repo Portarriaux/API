@@ -3,7 +3,6 @@ const AppError = require("../utils/App.Error")
 const authConfig = require("../configs/auth")
 const { compare } = require("bcryptjs")
 const { sign } = require("jsonwebtoken")
-const auth = require("../configs/auth")
 
 
 class SessionsCntroller {
