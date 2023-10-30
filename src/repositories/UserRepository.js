@@ -1,3 +1,5 @@
+// RESPONSAVÉL POR CUIDAR DO BANCO UTILIZADO.
+
 const sqliteConnection = require("../database/sqlite");
 
 class UserRepository {
